@@ -1,0 +1,52 @@
+.indexheader {
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.user {
+    margin-right: 60px;
+}
+
+.dropdown-menu {
+    width: 80px !important;
+}
+
+.indexheader>span {
+    color: #ff9b76;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    color: #007bff !important;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9b76 !important;
+    text-decoration: none;
+}
+
+.dropdown a {
+    display: inline-block;
+    color: #007bff;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.content {
+    /* background-color: white; */
+    border-radius: 15px;
+    /* padding: 10px; */
+}
